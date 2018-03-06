@@ -1,0 +1,13 @@
+"persistent_menu":[
+      {
+        "locale":"default",
+        "composer_input_disabled": False,
+        "call_to_actions":[
+          {
+              "title":"Start Over",
+              "type":"postback",
+              "payload":"@get_started"
+          }
+        ]
+      }
+  ]
