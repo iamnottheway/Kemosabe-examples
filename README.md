@@ -47,7 +47,11 @@ python3 app.py
 + In you're terminal or cmd, run ngrok using ``` ./ngrok http 5000```. The 5000 is the port on which ngrok should be running.
   Also tt's the same port on which the bot is running too.  
 
+![terminal](https://github.com/HarowitzBlack/Simplebot/blob/master/images/terminal.png)
+
 + Now, on the terminal you should see some info. Copy the https url to your clipboard.
+
+![Dev](https://github.com/HarowitzBlack/Simplebot/blob/master/images/dev.png)
 
 + Go to https://developers.facebook.com create an application if you haven't. Then go to the webhook section and click on edit
   subscription button.
