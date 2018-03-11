@@ -54,4 +54,4 @@ python3 app.py
 
 + Add the url and verification token there.
 
-+ Remember to subscribe to the pages. Otherwise you can't message the bot. 
++ Remember to subscribe to the pages. Otherwise you can't message the bot.
