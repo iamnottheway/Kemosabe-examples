@@ -1,6 +1,7 @@
 
 
 import kemosabe,views
+import json
 
 events = {
     "@get_started":views.get_started,
@@ -12,9 +13,9 @@ events = {
 # set events
 bot = kemosabe.Kemosabe(events)
 # set keys here. Changing keys here will also update the keys in configs.json file.
-bot.set_keys(api_key="EAAIggdPYmhYBAAlAC2tZC5P4ZAz714WTOhGYZAIIOKYb2SZA2mmhL8FGaNP456RZBuNCBJTpLLjLwKZCZCjxrBIZCElhPcVlpQ1qQlXoHHU9yjGpUX5fcZC91IztxNUWZAKxhEjpVjLLZA2nMFy1zV1whgRkiX261eTlxbJiHe5qO07DQZDZD",verify_key="bot")
+bot.set_keys(api_key="EAAIggdPYmhYBAAaMv8vD0f3tq5KjBRpqa6mapytuovLtNVIt1NURBc5L5g6ZCTIRQyOLOZAbTd5ay2ytKjr4ac5d4OrpKX5fzo1lCEj6JVsVF7iF6gEvL3TV0p6ke1KOK8MuDrSyLM8UOn6AEgwldYCKHdEFxKpZAy0oc4D9wZDZD",verify_key="bot")
 # menu enables text field. Anything typed into it will trigger the @text event.
-menu = open("menu.json","r").read()
+menu = json.loads(open("menu.json").read())
 
 if __name__ == "__main__":
-    bot.run(port=5623,debug=True,set_menu=menu)
+    bot.run(port=5000,debug=True,set_menu=menu)
