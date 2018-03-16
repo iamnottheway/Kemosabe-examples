@@ -1,8 +1,10 @@
 
 
-### An Example Messenger bot built using Kemosabe
+### Example bots built using Kemosabe for Messenger
 
-Note: This bot will only run on flasks development server for now. Can't be used with other servers yet.
+
+
+
 
 ### Setting things up
 
@@ -11,8 +13,11 @@ Note: This bot will only run on flasks development server for now. Can't be used
 Creating a python virtual env
 ```
   mkdir tvshowbot
-  virtualenv -p python3 tvshowbot
-  cd tvshowbot
+
+  virtualenv -p python3 bots
+
+  cd bots
+
   source bin/activate
 ```
 
@@ -21,7 +26,7 @@ Creating a python virtual env
 Cloning the  git repo
 
 ```
-git clone https://github.com/HarowitzBlack/Simplebot
+git clone https://github.com/HarowitzBlack/kemosabe
 ```
 
 #### #003
@@ -34,13 +39,16 @@ pip3 install -r requirements.txt
 
 ### Running the bot
 
-The bot starts running on flasks development server (Shouldn't be used in production).
+cd into any bot folder and run `app.py`. Remember to set the congifs in the app.py, this will automatically
+update the configs in configs.json.
+
+Note: The bot will run using Gunicorn.
 
 ```
 python3 app.py
 ```
 
-### Exposing the bot to the internet using Ngrok
+### Exposing the bot using Ngrok
 
 + Download [ngrok](https://ngrok.com/) from the official website.
 
