@@ -53,7 +53,7 @@ python3 app.py
 + Download [ngrok](https://ngrok.com/) from the official website.
 
 + In you're terminal or cmd, run ngrok using ``` ./ngrok http 5000```. The 5000 is the port on which ngrok should be running.
-  Also tt's the same port on which the bot is running too.  
+  Also it's the same port on which the bot is running too. If you used some other port set it to that. 
 
 ![terminal](https://github.com/HarowitzBlack/Simplebot/blob/master/images/terminal.png)
 
